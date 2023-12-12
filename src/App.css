@@ -2,16 +2,66 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color:rgb(24, 0, 36)!important;
+  color:#fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navClass {
+  background-color:rgba(24, 0, 36, 0.041);
+  backdrop-filter:blur(15px);
+  color:#fff!important;
+  
 }
+
+h1 {
+  color:#fff!important;
+}
+
+.carouselImage{
+  height:400px;
+}
+
+.HeaderImg {
+  height:75px;
+  width:auto;
+  border-radius:25%;
+}
+
+.carousel-control-next-icon {
+  display:none!important;
+}
+
+.carousel-control-prev-icon {
+  display:none!important;
+}
+
+.topImg {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: clamp(13rem, 50vh, 23rem);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  top: -104px;
+  z-index: -99;
+  
+}
+
+.aboutMe {
+  color:#fff;
+}
+
+.aboutMe a {
+  color:#f72065;
+}
+
+.aboutMe a:hover {
+  color:#be0d45;
+}
+
+
 
 .App-header {
   background-color: #282c34;
