@@ -10,7 +10,6 @@ import pagoda from './pagoda1.jpg'
 function AboutMe() {
   return (
     <Container className="pb-5">
-      
         <Row>
             <Col md={6}>
             <Carousel slide>
