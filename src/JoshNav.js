@@ -5,10 +5,10 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function JoshNav() {
   return (
-    <Navbar expand="lg" className="navClass m-auto navbar-dark">
+    <Navbar sticky="top" expand="lg" className="navClass m-auto navbar-dark">
       <Container >
         <div className="text-center mx-auto">
-        <Navbar.Brand href="#home">Josh Allford</Navbar.Brand>
+        <Navbar.Brand className="navHeader" href="#home">JOSH ALLFORD</Navbar.Brand>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
