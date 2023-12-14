@@ -3,14 +3,17 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import ElementWithVisibility from './ElementWithVisibility';
 
 function Technologies() {
     return (
-        <div>
+        <Container className="customContainer">
+           <ElementWithVisibility className="techStack">
             <h1 className="pt-5">CURRENT TECH STACK</h1>
-            <Container className="customContainer">
+            <p className="pt-3">Hover on desktop or click on the icons to find out more Info</p>
+            
                 <Row className="justify-content-center">
-                    <Col md={3} sm={6} xs={12}>
+                    <Col md={3} sm={6} xs={6}>
                     <Card className="text-center justify-content-center mx-auto flip-card" style={{ width: '15em', backgroundColor: 'rgba(24, 0, 36, 0.041)' }}>
                            
                            <div className="flip-card-inner">
@@ -19,13 +22,12 @@ function Technologies() {
                                </div>
                                <div class="flip-card-back">
                                    <h1>HTML5</h1>
-                                   <Button variant="primary">Find out more</Button>
+                                   <Button href="https://developer.mozilla.org/en-US/docs/Web/HTML" variant="primary">Find out more</Button>
                                </div>
                            </div>
-                           
                        </Card>
                     </Col>
-                    <Col md={3} sm={6} xs={12}>
+                    <Col md={3} sm={6} xs={6}>
                     <Card className="text-center justify-content-center mx-auto flip-card" style={{ width: '15em', backgroundColor: 'rgba(24, 0, 36, 0.041)' }}>
                            
                             <div className="flip-card-inner">
@@ -40,7 +42,7 @@ function Technologies() {
                             
                         </Card>
                     </Col>
-                    <Col md={3} sm={6} xs={12}>
+                    <Col md={3} sm={6} xs={6}>
                        <Card className="text-center justify-content-center mx-auto flip-card" style={{ width: '15em', backgroundColor: 'rgba(24, 0, 36, 0.041)' }}>
                            
                             <div className="flip-card-inner">
@@ -55,7 +57,7 @@ function Technologies() {
                             
                         </Card>
                     </Col>
-                    <Col md={3} sm={6} xs={12}>
+                    <Col md={3} sm={6} xs={6}>
                     <Card className="text-center justify-content-center mx-auto flip-card" style={{ width: '15em', backgroundColor: 'rgba(24, 0, 36, 0.041)' }}>
                            <div className="flip-card-inner">
                                <div class="flip-card-front">
@@ -69,8 +71,8 @@ function Technologies() {
                        </Card>
                     </Col>
                 </Row>
-                <Row className="justify-content-center">
-                    <Col md={3} sm={6} xs={12}>
+                <Row>
+                    <Col md={3} sm={6} xs={6}>
                     <Card className="text-center justify-content-center mx-auto flip-card" style={{ width: '15em', backgroundColor: 'rgba(24, 0, 36, 0.041)' }}>
                            <div className="flip-card-inner">
                                <div class="flip-card-front">
@@ -83,7 +85,7 @@ function Technologies() {
                            </div>
                        </Card>
                     </Col>
-                    <Col md={3} sm={6} xs={12}>
+                    <Col md={3} sm={6} xs={6}>
                     <Card className="text-center justify-content-center mx-auto flip-card" style={{ width: '15em', backgroundColor: 'rgba(24, 0, 36, 0.041)' }}>
                            <div className="flip-card-inner">
                                <div class="flip-card-front">
@@ -96,7 +98,7 @@ function Technologies() {
                            </div>
                        </Card>
                     </Col>
-                    <Col md={3} sm={6} xs={12}>
+                    <Col md={3} sm={6} xs={6}>
                     <Card className="text-center justify-content-center mx-auto flip-card" style={{ width: '15em', backgroundColor: 'rgba(24, 0, 36, 0.041)' }}>
                            <div className="flip-card-inner">
                                <div class="flip-card-front">
@@ -109,56 +111,78 @@ function Technologies() {
                            </div>
                        </Card>
                     </Col>
-                    <Col md={3} sm={6} xs={12}>
-                        <Card className="text-center justify-content-center mx-auto" style={{ width: '15em', backgroundColor: 'rgba(24, 0, 36, 0.041)' }}>
-                            <i class="devicon-postgresql-plain"></i>
-                            <Card.Body>
-                                <Card.Title>HTML</Card.Title>
-                                <Button variant="primary">Go somewhere</Button>
-                            </Card.Body>
-                        </Card>
+                    <Col md={3} sm={6} xs={6}>
+                       <Card className="text-center justify-content-center mx-auto flip-card" style={{ width: '15em', backgroundColor: 'rgba(24, 0, 36, 0.041)' }}>
+                           <div className="flip-card-inner">
+                               <div class="flip-card-front">
+                                   <i class="devicon-bootstrap-plain"></i>
+                               </div>
+                               <div class="flip-card-back">
+                                   <h1>BOOTSTRAP</h1>
+                                   <Button variant="primary">Find out more</Button>
+                               </div>
+                           </div>
+                       </Card>
                     </Col>
                 </Row>
                 <Row className="justify-content-center">
-                    <Col md={3} sm={6} xs={12}>
-                        <Card className="text-center justify-content-center mx-auto" style={{ width: '15em', backgroundColor: 'rgba(24, 0, 36, 0.041)' }}>
-                            <i class="devicon-git-plain"></i>
-                            <Card.Body>
-                                <Card.Title>HTML</Card.Title>
-                                <Button variant="primary">Go somewhere</Button>
-                            </Card.Body>
-                        </Card>
+                    <Col md={3} sm={6} xs={6}>
+                    <Card className="text-center justify-content-center mx-auto flip-card" style={{ width: '15em', backgroundColor: 'rgba(24, 0, 36, 0.041)' }}>
+                           <div className="flip-card-inner">
+                               <div class="flip-card-front">
+                                   <i class="devicon-git-plain"></i>
+                               </div>
+                               <div class="flip-card-back">
+                                   <h1>GIT</h1>
+                                   <Button variant="primary">Find out more</Button>
+                               </div>
+                           </div>
+                       </Card>
                     </Col>
-                    <Col md={3} sm={6} xs={12}>
-                        <Card className="text-center justify-content-center mx-auto" style={{ width: '15em', backgroundColor: 'rgba(24, 0, 36, 0.041)' }}>
-                            <i class="devicon-github-original"></i>
-                            <Card.Body>
-                                <Card.Title>HTML</Card.Title>
-                                <Button variant="primary">Go somewhere</Button>
-                            </Card.Body>
-                        </Card>
+                    <Col md={3} sm={6} xs={6}>
+                    <Card className="text-center justify-content-center mx-auto flip-card" style={{ width: '15em', backgroundColor: 'rgba(24, 0, 36, 0.041)' }}>
+                           <div className="flip-card-inner">
+                               <div class="flip-card-front">
+                                   <i class="devicon-github-plain"></i>
+                               </div>
+                               <div class="flip-card-back">
+                                   <h1>GITHUB</h1>
+                                   <Button variant="primary">Find out more</Button>
+                               </div>
+                           </div>
+                       </Card>
                     </Col>
-                    <Col md={3} sm={6} xs={12}>
-                        <Card className="text-center justify-content-center mx-auto" style={{ width: '15em', backgroundColor: 'rgba(24, 0, 36, 0.041)' }}>
-                            <i class="devicon-godot-plain"></i>
-                            <Card.Body>
-                                <Card.Title>HTML</Card.Title>
-                                <Button variant="primary">Go somewhere</Button>
-                            </Card.Body>
-                        </Card>
+                    <Col md={3} sm={6} xs={6}>
+                    <Card className="text-center justify-content-center mx-auto flip-card" style={{ width: '15em', backgroundColor: 'rgba(24, 0, 36, 0.041)' }}>
+                           <div className="flip-card-inner">
+                               <div class="flip-card-front">
+                                   <i class="devicon-godot-plain"></i>
+                               </div>
+                               <div class="flip-card-back">
+                                   <h1>GODOT</h1>
+                                   <Button variant="primary">Find out more</Button>
+                               </div>
+                           </div>
+                       </Card>
                     </Col>
-                    <Col md={3} sm={6} xs={12}>
-                        <Card className="text-center justify-content-center mx-auto" style={{ width: '15em', backgroundColor: 'rgba(24, 0, 36, 0.041)' }}>
-                            <i class="devicon-bootstrap-plain"></i>
-                            <Card.Body>
-                                <Card.Title>HTML</Card.Title>
-                                <Button variant="primary">Go somewhere</Button>
-                            </Card.Body>
-                        </Card>
+                    <Col md={3} sm={6} xs={6}>
+                    <Card className="text-center justify-content-center mx-auto flip-card" style={{ width: '15em', backgroundColor: 'rgba(24, 0, 36, 0.041)' }}>
+                           <div className="flip-card-inner">
+                               <div class="flip-card-front">
+                                   <i class="devicon-postgresql-plain"></i>
+                               </div>
+                               <div class="flip-card-back">
+                                   <h1>POSTGRESSQL</h1>
+                                   <Button variant="primary">Find out more</Button>
+                               </div>
+                           </div>
+                       </Card>
                     </Col>
                 </Row>
+                </ElementWithVisibility>
             </Container>
-        </div>
+            
+        
     );
 }
 

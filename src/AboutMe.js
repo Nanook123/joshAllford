@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import skyline from './tokyoSkyline.jpg'
 import onsen from './Onsen.jpg'
 import pagoda from './pagoda1.jpg'
+import ElementWithVisibility from './ElementWithVisibility';
 
 
 function AboutMe() {
@@ -33,20 +34,30 @@ function AboutMe() {
     </Row>
     <Row>
       <Col>
+      <ElementWithVisibility className="EXP">
       <h1 className="pt-5">PROFESSIONAL EXPERIENCE</h1>
-      <p className="aboutMe">FuseMetrix allowed me to really flex my HTML,CSS Javascript skills and continue learning in the process where I picked up Bootstrap for responsive designs and PHP for back end and API integration</p></Col>
+      <p className="aboutMe">FuseMetrix allowed me to really flex my HTML,CSS Javascript skills and continue learning in the process where I picked up Bootstrap for responsive designs and PHP for back end and API integration</p>
+      </ElementWithVisibility>
+      </Col>
     </Row>
     <Row>
+    <ElementWithVisibility className="examples">
       <h2 className="">
       COUPLE EXAMPLES OF MY WORK</h2>
+      </ElementWithVisibility>
       <Col md={6} className="WTT">
+      <ElementWithVisibility className="websitesExamples1">
       <a href="https://tickets.wakethetiger.com/book" className="styledLink">Wake The Tiger</a>
       <p className="aboutMe text-center pt-2">I really enjoyed working on this design, I tried pushing my self as much as possible in terms of interactivity and responsiveness that a customer would receive. as you can see I took some inspiration from this design and included it here !</p>
+      </ElementWithVisibility>
       </Col>
       <Col md={6} className="peak">
+      <ElementWithVisibility className="websitesExamples2">
       <a href="https://bookings.peakwildlifepark.co.uk/book" className="styledLink">Peak Wildlife Park</a>
       <p className="aboutMe text-center pt-2">With this website we had to really prove ourselves as we tried to enter a new sector with Zoo's, I believe we achieved that with a clean and responsive design making it easy to use for all kinds of customers</p>
+      </ElementWithVisibility>
       </Col>
+      
     </Row>
     </Container>
   );
