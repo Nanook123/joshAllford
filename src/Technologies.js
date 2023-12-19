@@ -7,7 +7,7 @@ import ElementWithVisibility from './ElementWithVisibility';
 
 function Technologies() {
     return (
-        <Container className="customContainer">
+        <Container id="techStack" className="customContainer">
            <ElementWithVisibility className="techStack">
             <h1 className="pt-5">CURRENT TECH STACK</h1>
             <p className="pt-3">Hover on desktop or click on the icons to find out more Info</p>
@@ -171,7 +171,7 @@ function Technologies() {
                                <div class="flip-card-front">
                                    <i class="devicon-postgresql-plain"></i>
                                </div>
-                               <div class="flip-card-back">
+                               <div id="technicalProjects" class="flip-card-back">
                                    <h1>POSTGRESQL</h1>
                                    <Button href="https://www.postgresql.org/" variant="primary">Find out more</Button>
                                </div>

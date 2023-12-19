@@ -25,7 +25,7 @@ function AboutMe() {
       </Carousel.Item>
     </Carousel>
     </Col>
-    <Col md={6}>
+    <Col md={6} id="experience">
     <h1 className="mt-5">ABOUT ME</h1>
     <p className="aboutMe">2 years ago I came back from travelling for 6 months and found myself wanting something more from my career,
     with my love of Technology and Learning it did not take me long to realise I wanted to get into Software Engineering, After working a few months in an IT analyst job I took the dive and joined <a href="https://flatironschool.com/"> Flatiron School. </a>
@@ -54,7 +54,7 @@ function AboutMe() {
       <Col md={6} className="peak">
       <ElementWithVisibility className="websitesExamples2">
       <a href="https://bookings.peakwildlifepark.co.uk/book" className="styledLink">Peak Wildlife Park</a>
-      <p className="aboutMe text-center pt-2">With this website we had to really prove ourselves as we tried to enter a new sector with Zoo's, I believe we achieved that with a clean and responsive design making it easy to use for all kinds of customers</p>
+      <p id="techStack" className="aboutMe text-center pt-2">With this website we had to really prove ourselves as we tried to enter a new sector with Zoo's, I believe we achieved that with a clean and responsive design making it easy to use for all kinds of customers</p>
       </ElementWithVisibility>
       </Col>
       

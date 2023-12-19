@@ -13,9 +13,10 @@ function JoshNav() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">About me</Nav.Link>
-            <Nav.Link href="#link">Experience</Nav.Link>
-            <Nav.Link href="#travel">Tech Stack</Nav.Link>
+            <Nav.Link href="#AboutMe">About me</Nav.Link>
+            <Nav.Link href="#experience">Experience</Nav.Link>
+            <Nav.Link href="#techStack">Tech Stack</Nav.Link>
+            <Nav.Link href="#technicalProjects">Technical Projects</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </div>
