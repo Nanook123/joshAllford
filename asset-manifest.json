@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/joshallford/static/css/main.4b39bdfd.css",
+    "main.js": "/joshallford/static/js/main.2a31acab.js",
+    "static/js/787.af604446.chunk.js": "/joshallford/static/js/787.af604446.chunk.js",
+    "static/media/topImg.jpg": "/joshallford/static/media/topImg.90fea2c6e298b5599b4f.jpg",
+    "static/media/Onsen.jpg": "/joshallford/static/media/Onsen.c4d1ca3a44ca1be0f215.jpg",
+    "static/media/pagoda1.jpg": "/joshallford/static/media/pagoda1.30d85fe740c723ec759b.jpg",
+    "static/media/tokyoSkyline.jpg": "/joshallford/static/media/tokyoSkyline.80a496f2f262a5b01955.jpg",
+    "index.html": "/joshallford/index.html",
+    "main.4b39bdfd.css.map": "/joshallford/static/css/main.4b39bdfd.css.map",
+    "main.2a31acab.js.map": "/joshallford/static/js/main.2a31acab.js.map",
+    "787.af604446.chunk.js.map": "/joshallford/static/js/787.af604446.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b39bdfd.css",
+    "static/js/main.2a31acab.js"
+  ]
+}
