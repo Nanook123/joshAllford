@@ -36,7 +36,7 @@ function Technologies() {
                                 </div>
                                 <div class="flip-card-back">
                                     <h1>CSS3</h1>
-                                    <Button variant="primary">Find out more</Button>
+                                    <Button href="https://developer.mozilla.org/en-US/docs/Web/CSS" variant="primary">Find out more</Button>
                                 </div>
                             </div>
                             
@@ -51,7 +51,7 @@ function Technologies() {
                                 </div>
                                 <div class="flip-card-back">
                                     <h1>JAVASCRIPT</h1>
-                                    <Button variant="primary">Find out more</Button>
+                                    <Button href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" variant="primary">Find out more</Button>
                                 </div>
                             </div>
                             
@@ -65,7 +65,7 @@ function Technologies() {
                                </div>
                                <div class="flip-card-back">
                                    <h1>REACT</h1>
-                                   <Button variant="primary">Find out more</Button>
+                                   <Button href="https://react.dev/" variant="primary">Find out more</Button>
                                </div>
                            </div>
                        </Card>
@@ -80,7 +80,7 @@ function Technologies() {
                                </div>
                                <div class="flip-card-back">
                                    <h1>RUBY</h1>
-                                   <Button variant="primary">Find out more</Button>
+                                   <Button href="https://www.ruby-lang.org/en/" variant="primary">Find out more</Button>
                                </div>
                            </div>
                        </Card>
@@ -93,7 +93,7 @@ function Technologies() {
                                </div>
                                <div class="flip-card-back">
                                    <h1>RAILS</h1>
-                                   <Button variant="primary">Find out more</Button>
+                                   <Button href="https://rubyonrails.org/" variant="primary">Find out more</Button>
                                </div>
                            </div>
                        </Card>
@@ -106,7 +106,7 @@ function Technologies() {
                                </div>
                                <div class="flip-card-back">
                                    <h1>PHP</h1>
-                                   <Button variant="primary">Find out more</Button>
+                                   <Button href="https://www.php.net/" variant="primary">Find out more</Button>
                                </div>
                            </div>
                        </Card>
@@ -119,7 +119,7 @@ function Technologies() {
                                </div>
                                <div class="flip-card-back">
                                    <h1>BOOTSTRAP</h1>
-                                   <Button variant="primary">Find out more</Button>
+                                   <Button href="https://getbootstrap.com/" variant="primary">Find out more</Button>
                                </div>
                            </div>
                        </Card>
@@ -134,7 +134,7 @@ function Technologies() {
                                </div>
                                <div class="flip-card-back">
                                    <h1>GIT</h1>
-                                   <Button variant="primary">Find out more</Button>
+                                   <Button href="https://git-scm.com/" variant="primary">Find out more</Button>
                                </div>
                            </div>
                        </Card>
@@ -147,7 +147,7 @@ function Technologies() {
                                </div>
                                <div class="flip-card-back">
                                    <h1>GITHUB</h1>
-                                   <Button variant="primary">Find out more</Button>
+                                   <Button href="https://github.com/" variant="primary">Find out more</Button>
                                </div>
                            </div>
                        </Card>
@@ -160,7 +160,7 @@ function Technologies() {
                                </div>
                                <div class="flip-card-back">
                                    <h1>GODOT</h1>
-                                   <Button variant="primary">Find out more</Button>
+                                   <Button href="https://godotengine.org/" variant="primary">Find out more</Button>
                                </div>
                            </div>
                        </Card>
@@ -172,8 +172,8 @@ function Technologies() {
                                    <i class="devicon-postgresql-plain"></i>
                                </div>
                                <div class="flip-card-back">
-                                   <h1>POSTGRESSQL</h1>
-                                   <Button variant="primary">Find out more</Button>
+                                   <h1>POSTGRESQL</h1>
+                                   <Button href="https://www.postgresql.org/" variant="primary">Find out more</Button>
                                </div>
                            </div>
                        </Card>
