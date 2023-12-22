@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function JoshNav() {
   return (
-    <Navbar sticky="top" expand="lg" className="navClass m-auto navbar-dark">
+    <Navbar  expand="lg" className="navClass m-auto navbar-dark">
       <Container >
         <div className="text-center mx-auto">
         <Navbar.Brand className="navHeader" href="#home">JOSH ALLFORD</Navbar.Brand>

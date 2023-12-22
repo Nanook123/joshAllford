@@ -6,7 +6,7 @@ import 'animate.css';
 import Technologies from './Technologies.js'
 import topImg from './topImg.jpg'
 import TechnicalProject from './TechnicalProjects.js';
-
+import Footer from './Footer.js'
 
 
 function App() {
@@ -15,11 +15,12 @@ function App() {
       <JoshNav />
       <div id="AboutMe" className="topImg" style={{ backgroundImage: `linear-gradient(to bottom, rgba(24, 0, 36, 0.1), rgba(24, 0, 36, 1)), url(${topImg})`  }}>
      </div>
-      <AboutMe id="techStack" />
+      <AboutMe />
       <Technologies />
       <div className="pt-3">
       <TechnicalProject />
       </div>
+      <Footer />
     </div>
   );
 }
